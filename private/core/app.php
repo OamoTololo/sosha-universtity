@@ -2,6 +2,7 @@
     class App
     {
         protected $controller = "home";
+        
         protected $method = "index";
         protected $parameters = array();
         public function __construct()
@@ -14,7 +15,7 @@
                unset($URL[0]);
            }
 
-           require("../private/controllers/" . $this->controller . ".php");
+           require"../private/controllers/" . $this->controller . ".php";
            $this->controller = new $this->controller();
 
            if (isset($URL[1])) {
