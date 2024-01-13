@@ -46,3 +46,13 @@
     background-color: lightgrey;
     color: black !important;
 }
+
+.profile {
+    max-width: 1000px;
+}
+
+/*========== Profile ===================*/
+
+.womanLogo {
+    width: 150px;
+}

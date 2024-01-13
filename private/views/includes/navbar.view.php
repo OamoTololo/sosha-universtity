@@ -11,17 +11,17 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item active">
-                <a class="nav-link text-white" href="index.php">
+                <a class="nav-link text-white" href="home.view.php">
                     <i class="fa-solid fa-home"></i> DASHBOARD
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="aboutUs.php">
+                <a class="nav-link text-white" href="classes.view.php">
                     <i class="fa-solid fa-laptop"></i> CLASSES
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="student.php">
+                <a class="nav-link text-white" href="tests.view.php">
                     <i class="fa-solid fa-house"></i> TESTS
                 </a>
             </li>
@@ -31,8 +31,8 @@
                 </a>
 
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="download.php"> Profile's</a>
-                    <a class="dropdown-item" href="result.php"> Dashboard</a>
+                    <a class="dropdown-item" href="/profile.view.php"> Profile's</a>
+                    <a class="dropdown-item" href="home.view.php"> Dashboard</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="student-corner.php"> Logout</a>
                 </div>
